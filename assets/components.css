@@ -1,54 +1,10 @@
-.block {
-  height: 500px;
-  border: 3px dashed;
-}
-
-.box {
-  width: 200px;
-  height: 200px;
-  background: #e87474;
-  scale: 0.5;
-}
-.btn {
-  width: 200px;
-  height: 50px;
-  transition: scale 500ms;
-  animation-name: spin;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-}
-
-.btn:hover {
-  animation-name: shake;
-}
-
-/* @keyframes spin {
-  from {
-    roate: 0deg;
-  }
-  to {
-    rotate: 360deg;
-  } */
-}
-
-@keyframes shake {
-  0% {
-    transform: skewX(0deg);}
-}
-100% {
-  transform: skewX(30deg);
-}
-
-.funky-btn {
-  font-size: 1.15em;
-  padding: 0.5em 2.25em;
-  display: inline-block;
-  border-radius: 5px;
-  border: 3px solid black;
-  background: #CCAEF2;
-  color: #000 !important;
-  text-decoration: none;
-  font-family: "HelveticaNeueW01-65Medi" !important;
-  box-shadow: 1px 1px #66707e, 3px 3px #66707e, 5px 5px #66707e, 7px 7px #66707e, 9px 9px #66707e;
-  transition: 100ms all linear;
+.background {
+  background-image: linear-gradient(
+      rgba(240, 39, 39, 0.5),
+      rgba(34, 116, 216, 0.5)
+    ),
+    url("https://picsum.photos/id/1060/2550/1440");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
