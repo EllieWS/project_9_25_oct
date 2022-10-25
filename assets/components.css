@@ -1,10 +1,19 @@
-.background {
-  background-image: linear-gradient(
-      rgba(240, 39, 39, 0.5),
-      rgba(34, 116, 216, 0.5)
-    ),
-    url("https://picsum.photos/id/1060/2550/1440");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+.btn {
+  height: 49px;
+  width: 153px;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: capitalize;
+
+  background-color: #d2acf7;
+  border-radius: 5px;
+  border: 3px solid #000;
+  box-shadow: 1px 1px #66707e, 3px 3px #66707e, 5px 5px #66707e, 7px 7px #66707e,
+    9px 9px #66707e;
+}
+
+.btn:hover {
+  background-color: #b0f494;
+  transform: translateX(10px);
+  transform: translateY(10px);
 }

@@ -1,8 +1,7 @@
-*,
-*::after,
-*::before {
+* {
   margin: 0px;
   box-sizing: border-box;
+  margin: 40px;
 }
 
 html,
